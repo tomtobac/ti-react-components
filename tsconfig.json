@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "outDir": "lib",
+      "module": "es2015",
+      "target": "es5",
+      "lib": ["es6", "dom", "esnext"],
+      "sourceMap": true,
+      "jsx": "react",
+      "jsxFactory": "React.createElement",
+      "moduleResolution": "node",
+      "rootDir": "src",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "declaration": true,
+      "stripInternal": true,
+      "baseUrl": "."
+  },
+  "exclude": ["node_modules", "templates", "lib"]
+}
